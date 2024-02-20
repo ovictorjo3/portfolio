@@ -23,6 +23,7 @@ body {
 
 .cabecalho {
     padding: 2% 0% 0% 10%;
+
 }
 
 .cabecalho__menu {
@@ -125,5 +126,13 @@ body {
 @media (max-width: 700px) {
     .apresentacao {
         flex-direction: column-reverse;
+    }
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
     }
 }
